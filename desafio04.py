@@ -1,0 +1,10 @@
+d = input('Digite algo: ')
+
+print('Esse é seu tipo:{}'.format(type(d)))
+print('é verdade q ele é numerico: {}'.format(d.isnumeric()))
+print('é verdade q ele é alphabetico: {}'.format(d.isalpha()))
+print('é verdade q ele é alphabetico e Numerico: {}'.format(d.isalnum()))
+print('é verdade q ele tem apenas espaço: {}'.format(d.isspace()))
+print('é verdade q ele esta em maisculo: {}'.format(d.isupper()))
+print('é verdade q ele esta em minusculo: {}'.format(d.islower()))
+print('é verdade q a primeira letra esta em maiscula: {}'.format(d.istitle()))
